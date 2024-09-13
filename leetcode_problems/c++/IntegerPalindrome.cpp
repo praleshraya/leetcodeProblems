@@ -18,7 +18,14 @@ while(num!=0)
     
 }
 
-cout <<"Reverse number of " << temp << " is : " << reverse  ;
+if(temp==reverse)
+{
+    cout << temp <<" is palindrome number." << endl;
+}
+else{
+     cout << temp <<" is not a palindrome number." << endl;
+}
+
 return 0;
 
 }
